@@ -1,50 +1,67 @@
-# Simple Calculator
+# Interactive Web Calculator
 
-## Live Demo
-[Live Demo](DEPLOYMENT_URL_PLACEHOLDER)
+## 🚀 Live Demo
 
-## Overview
-A responsive web-based calculator application built using vanilla JavaScript for logic and styled with the utility-first framework, Tailwind CSS. This calculator supports basic arithmetic operations and provides an intuitive user experience across different device sizes.
+Experience the calculator live here: [**Interactive Web Calculator**](https://Shubham30000.github.io/web-calculator-test/)
 
-## Features
-*   **Basic Arithmetic Operations**: Perform addition, subtraction, multiplication, and division.
-*   **Clear Functionality**: A 'C' button to reset the calculator display and state.
-*   **Decimal Support**: Input and calculate with decimal numbers.
-*   **Responsive Design**: The layout adjusts seamlessly for various screen sizes, from mobile phones to desktop monitors, thanks to Tailwind CSS.
-*   **Intuitive UI**: A clean and easy-to-use interface for straightforward calculations.
+## 📋 Overview
 
-## Technologies Used
-*   **HTML5**: For the basic structure and semantic markup.
-*   **CSS3 (Tailwind CSS from CDN)**: For responsive design and styling, providing a modern look and feel.
-*   **JavaScript**: For all the calculator's core logic, including input handling, operation execution, and display updates.
+This project implements a functional web-based calculator, providing users with a straightforward interface to perform basic arithmetic operations. Built with a focus on usability and a clean design, it supports addition, subtraction, multiplication, and division, displaying current input and results clearly.
 
-## Setup
-To get this project up and running on your local machine, follow these simple steps:
+## ✨ Features
 
-1.  **Clone the Repository**:
+*   **Basic Arithmetic Operations**: Supports addition, subtraction, multiplication, and division.
+*   **Clear Functionality**: A dedicated 'C' button to reset the calculator display and state.
+*   **Dynamic Display**: Shows current input and computed results in real-time.
+*   **Responsive Layout**: Buttons are organized using CSS Grid for an intuitive and adaptable interface.
+*   **User-Friendly Interface**: Simple and clean design for ease of use.
+
+## 🛠️ Technologies Used
+
+*   **HTML5**: For structuring the calculator's interface.
+*   **CSS3**: For styling, including `display: grid` for button layout.
+*   **Tailwind CSS**: For utility-first styling and responsive design (or Bootstrap, depending on implementation).
+*   **JavaScript**: For implementing the core calculator logic and handling user interactions.
+
+## 📦 Setup
+
+To get a local copy up and running, follow these simple steps.
+
+1.  **Clone the repository**:
+
     ```bash
-    git clone [YOUR_REPO_URL_HERE]
+    git clone https://github.com/Shubham30000/web-calculator-test.git
     ```
-2.  **Navigate to the Project Directory**:
+
+2.  **Navigate to the project directory**:
+
     ```bash
-    cd simple-calculator
+    cd web-calculator-test
     ```
-3.  **Open in Browser**: Open the `index.html` file in your preferred web browser. No special server setup or build process is required as Tailwind CSS is loaded via CDN.
 
-## Usage
-*   **Enter Numbers**: Click on the digit buttons (0-9) to input numbers.
-*   **Perform Operations**: Click on the operator buttons (`+`, `-`, `*`, `/`) to select an arithmetic operation.
-*   **Decimal Points**: Use the `.` button to add decimal points to your numbers.
-*   **Get Result**: Press the `=` button to compute and display the result of your expression.
-*   **Clear Display**: Click the `C` button to clear the current input and reset the calculator for a new calculation.
+3.  **Open `index.html`**: Simply open the `index.html` file in your preferred web browser to run the application.
 
-## Project Structure
+## 💡 Usage
+
+Using the Interactive Web Calculator is straightforward:
+
+1.  **Enter Numbers**: Click on the digit buttons (0-9) to input numbers.
+2.  **Select Operation**: Click on an operator button (+, -, *, /) to choose an arithmetic operation.
+3.  **Input Second Number**: Enter the second number for the calculation.
+4.  **Get Result**: Click the equals (=) button to display the computed result.
+5.  **Clear Display**: Use the Clear (C) button to reset the calculator and start a new calculation.
+
+## 📁 Project Structure
+
+The project follows a standard web application structure:
+
 ```
-.
-├── index.html
-├── README.md
-└── LICENSE
+web-calculator-test/
+├── index.html       # The main HTML file defining the calculator's structure.
+├── style.css        # Contains custom CSS rules and potentially Tailwind CSS directives for styling.
+└── script.js        # Implements the JavaScript logic for calculator operations and UI interaction.
 ```
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for full details.
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
